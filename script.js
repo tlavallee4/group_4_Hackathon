@@ -14,9 +14,15 @@ function userChoice() {
 }
 
 function displayChosenResults() {
+    // Update computer choice in html
+    document.getElementById('computer-choice').textContent = `Computer chose: ${computerChoice()}!`;
+
+
 
 }
 
-function displayWinner() {
-    
+function buttonOptions() {
+
 }
+
+buttonOptions();
