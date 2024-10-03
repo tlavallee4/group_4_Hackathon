@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-[Provide a brief summary of the project, including the theme and objectives.]
+Rock, Paper, Scissors is a popular game where two people compete against each other. We have created a version of the game that is the user vs computer competition. 
 
 ## Team Members:
 
--   Name 1
+-   Tanelle Lavallee
 -   Name 2
 -   Name 3
 
@@ -14,7 +14,8 @@
 
 ### Name 1:
 
--   Worked on [specific elements] of the webpage.
+-   Worked on the computers choice using a number generator for random selection every time.
+
 
 ### Name 2:
 
