@@ -1,0 +1,12 @@
+/* Set body styles */
+body {
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    background-color: #000000;
+    color: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
