@@ -10,3 +10,20 @@ body {
     margin: 0;
     height: 100vh;
 }
+
+/* Style buttons */
+ul.options {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 10px;
+}
+
+button {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
