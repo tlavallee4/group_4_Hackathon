@@ -7,7 +7,7 @@ Rock, Paper, Scissors is a popular game where two people compete against each ot
 ## Team Members:
 
 -   Tanelle Lavallee
--   Name 2
+-   Bhavdeep
 -   Name 3
 
 ## Member Contributions:
@@ -19,7 +19,7 @@ Rock, Paper, Scissors is a popular game where two people compete against each ot
 
 ### Name 2:
 
--   Was responsible for [specific tasks], focusing on [specific HTML elements].
+-   I was responsible for creating the base of the group project and adding the user button on the html file and a structure on script.js file.
 
 ### Name 3:
 
