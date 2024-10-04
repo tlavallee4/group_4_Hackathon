@@ -1,17 +1,11 @@
 // Create game options
-<<<<<<< HEAD
 let gameOptions = ["Rock", "Paper", "Scissors"];
- 
-=======
-let gameOptions = ["Rock", "Paper", "Scissors"]
 
->>>>>>> 3de34637c427f607180761ad8691f99418b787df
-// Generate the computers choice
+// Generate the computer's choice
 function computerChoice() {
-    // create generated numbers: 0, 1, 2
+    // Create generated numbers: 0, 1, 2
     let computerChoice = Math.floor(Math.random() * 3);
-<<<<<<< HEAD
-    // return computers choice
+    // Return computer's choice
     return gameOptions[computerChoice];
 }
 
@@ -44,40 +38,17 @@ function displayResults(userSelection, computerSelection) {
     }
     // Display the result
     document.getElementById("result").innerText = "Result: " + result;
-=======
-    // return computers choice 
-    return gameOptions[computerChoice]
 }
-
-function userChoice() {
-
-}
-
-function displayChosenResults() {
-    // Update computer choice in html
-    document.getElementById('computer-choice').textContent = `Computer chose: ${computerChoice()}!`;
-}
-
-function buttonOptions() {
 
 // Part 1: Handling button clicks
 document.getElementById("rock").addEventListener("click", function() {
-    playerChoice("rock");
+    userChoice("Rock");
 });
 
 document.getElementById("paper").addEventListener("click", function() {
-    playerChoice("paper");
+    userChoice("Paper");
 });
 
 document.getElementById("scissors").addEventListener("click", function() {
-    playerChoice("scissors");
+    userChoice("Scissors");
 });
-
-} 
-
-// Function to handle player's choice (more logic will be added in the next steps)
-function playerChoice(choice) {
-    console.log("Player chose: " + choice);
-    // Further logic will be added here later for the game result
->>>>>>> 3de34637c427f607180761ad8691f99418b787df
-}
