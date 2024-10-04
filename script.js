@@ -16,12 +16,9 @@ function userChoice() {
 function displayChosenResults() {
     // Update computer choice in html
     document.getElementById('computer-choice').textContent = `Computer chose: ${computerChoice()}!`;
-
-
-
 }
 
-function buttonOptions();
+function buttonOptions() {
 
 // Part 1: Handling button clicks
 document.getElementById("rock").addEventListener("click", function() {
@@ -35,6 +32,8 @@ document.getElementById("paper").addEventListener("click", function() {
 document.getElementById("scissors").addEventListener("click", function() {
     playerChoice("scissors");
 });
+
+} 
 
 // Function to handle player's choice (more logic will be added in the next steps)
 function playerChoice(choice) {
