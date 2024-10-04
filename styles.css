@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -70,3 +71,34 @@ button:hover {
     font-weight: bold;
     color: #d9534f; /* Red color for results */
 }
+=======
+/* Set body styles */
+body {
+    font-family: 'Bubblegum Sans', cursive;
+    text-align: center;
+    background-color: #000000;
+    color: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+/* Style buttons */
+ul.options {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 10px;
+}
+
+button {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+>>>>>>> 3de34637c427f607180761ad8691f99418b787df
